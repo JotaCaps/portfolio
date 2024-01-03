@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 body {
@@ -16,12 +17,24 @@ body {
     background-attachment: fixed;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8001FA;
+    text-decoration: underline;
+}
+
+
 .main {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid rgb(187, 187, 187);
     border-radius: 1rem;
 }
+
 
 @media only screen and (min-width: 768px) {
 
@@ -34,5 +47,9 @@ body {
     body {
         background-image: url('/assets/img/fundo-pc.jpg');
     }
+}
+
+h3 {
+    padding-left:1.3rem ;
 }
 
